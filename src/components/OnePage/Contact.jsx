@@ -17,7 +17,7 @@ function Contact() {
               </div>
               <ul className="rest social-text d-flex mt-60">
                 <li>
-                  <a href="#0" className="hover-this"><span className="hover-anim">Instagram</span></a>
+                  <a href="https://www.instagram.com/internationalave/" className="hover-this"><span className="hover-anim">Instagram</span></a>
                 </li>
               </ul>
             </div>

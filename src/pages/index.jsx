@@ -56,3 +56,4 @@ function HomeOnePage() {
 HomeOnePage.getLayout = page => <Layout>{page}</Layout>
 
 export default HomeOnePage;
+

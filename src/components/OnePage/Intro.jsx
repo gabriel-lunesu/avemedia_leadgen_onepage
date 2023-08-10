@@ -48,7 +48,7 @@ function Intro() {
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">Our years of experience with digital advertising can <b>garuantee</b> you results. We've developed a skillset wich is unbeatable, and if we dissapoint you? You will get a 100% refund.</p>
                   </div>
                 </div>
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".3s">
@@ -57,7 +57,7 @@ function Intro() {
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">What we've learned is that digital marketing is the most important part of business these days. That's why we chose to specialise in it. To learn more about how we <b>exactly</b> go to work. Please feel free to contact us! </p>
                   </div>
                 </div>
                 <div className="item wow fadeInUp" data-wow-delay=".5s">
@@ -66,7 +66,7 @@ function Intro() {
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.</p>
+                    <p className="fz-14">Building and scaling brands is what we do. At Ave Media we've done countless projects and seeing growth in every company we've worked with.</p>
                   </div>
                 </div>
               </div>
