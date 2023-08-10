@@ -24,7 +24,7 @@ function Contact() {
           </div>
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="full-width">
-              <form id="contact-form" method="post" action="avemedia-leadgen-onepage.vercel.app/server">
+              <form id="contact-form" method="post" action="avemedia-leadgen-onepage.vercel.app/send-email">
                 <div className="messages"></div>
                 <div className="controls row">
                   <div className="col-lg-6">
