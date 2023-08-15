@@ -16,7 +16,7 @@ function Header() {
           <div className="col-lg-8">
             <div className="caption">
               <h5 className="fw-300 mb-15">Digital Agency - Ave Media</h5>
-              <h1 className="fz-50">#1 Lead Generation <br/> Agency in The <u>UAE</u>.</h1>
+              <h1 className="fz-50">#1 Lead Generation <br/> Agency in The <u>Middle-East</u>.</h1>
             </div>
           </div>
           <div className="col-lg-4 d-flex align-items-end justify-content-end justify-end">

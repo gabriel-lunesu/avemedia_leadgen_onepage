@@ -19,6 +19,9 @@ import Team from '@/components/OnePage/Team';
 import Blog from '@/components/OnePage/Blog';
 import Contact from '@/components/OnePage/Contact';
 import Footer from '@/components/OnePage/Footer';
+import ContactForm from '@/components/OnePage/Contactform';
+
+
 
 function HomeOnePage() {
   useEffect(() => {
@@ -47,6 +50,7 @@ function HomeOnePage() {
         {/* <Team /> */}
         {/* <Blog /> */}
         <Contact />
+        
       </main>
       {/* <Footer /> */}
     </>

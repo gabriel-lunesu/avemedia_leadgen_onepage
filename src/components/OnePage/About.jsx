@@ -16,11 +16,11 @@ function About() {
                   <span className="up-text"><u>Lead Generation Agency.</u></span>
                 </span>
                 <span className="sideup-text">
-                  <span className="up-text"><i>We Garuantee</i>.</span>
+                  <span className="up-text"><i>We Guarantee</i>.</span>
                 </span>
               </h2>
               <div className="text mt-20 wow fadeIn" data-wow-delay=".5s">
-                <p>At Ave Media, we're so confident in our lead generation skills that we can <b>garuantee</b> our clients a number of leads they get. Otherwise... <i>Money. Back. Garuantee</i>.</p>
+                <p>At Ave Media, we're so confident in our lead generation skills that we can <b>guarantee</b> our clients a number of leads they get. Otherwise... <i>Money. Back. Guarantee</i>.</p>
               </div>
               <div className="stutas pt-40 mt-40 bord-thin-top">
                 <div className="row">

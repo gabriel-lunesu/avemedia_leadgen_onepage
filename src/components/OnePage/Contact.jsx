@@ -1,6 +1,12 @@
 import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+
 
 function Contact() {
+  const [state, handleSubmit] = useForm("mzbleoap");
+  if (state.succeeded) {
+      return <p>We will contact you soon!</p>;
+  }
   return (
     <section className="contact-crev no-crev section-padding">
       <div className="container">
@@ -24,7 +30,7 @@ function Contact() {
           </div>
           <div className="col-lg-6 offset-lg-1 valign">
             <div className="full-width">
-              <form id="contact-form" method="post" action="/api/send-email">
+              <form onSubmit={handleSubmit} id="contact-form" action='https://formspree.io/f/mzbleoap' method='POST'>
                 <div className="messages"></div>
                 <div className="controls row">
                   <div className="col-lg-6">
@@ -48,7 +54,7 @@ function Contact() {
                         required="required"></textarea>
                     </div>
                     <div className="mt-30">
-                      <button type="submit" className="butn butn-full butn-bord radius-30">
+                      <button disabled={state.submitting} type="submit" className="butn butn-full butn-bord radius-30">
                         <span className="text">Let's Talk</span>
                       </button>
                     </div>

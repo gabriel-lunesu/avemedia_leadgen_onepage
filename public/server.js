@@ -1,48 +1,46 @@
-<?php
+const express = require('express');
+const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
+const cors = require('cors');
 
-// configure
-$from = 'Demo contact form <info@avemedia.agency>';
-$sendTo = 'Test contact form <g.lunesu@outlook.com>'; // Add Your Email
-$subject = 'New message from contact form';
-$fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+const app = express();
+const port = 3001;
 
-// let's do the sending
+app.use(cors());  // Allow cross-origin requests
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-try
-{
-    $emailText = "You have new message from contact form\n=============================\n";
+app.post('/send-email', async (req, res) => {
+    const { name, email, subject, message } = req.body;
 
-    foreach ($_POST as $key => $value) {
-
-        if (isset($fields[$key])) {
-            $emailText .= "$fields[$key]: $value\n";
+    const transporter = nodemailer.createTransport({
+        service: 'gmail', // Use your email provider
+        auth: {
+            user: 'YOUR_EMAIL@gmail.com', // Your email address
+            pass: 'YOUR_EMAIL_PASSWORD'  // Your email password
         }
+    });
+
+    const mailOptions = {
+        from: 'Demo contact form <info@avemedia.agency>',
+        to: 'Test contact form <g.lunesu@outlook.com>', // Your email
+        subject: 'New message from contact form',
+        text: `
+            Name: ${name}
+            Email: ${email}
+            Subject: ${subject}
+            Message: ${message}
+        `
+    };
+
+    try {
+        await transporter.sendMail(mailOptions);
+        res.json({ type: 'success', message: 'Email sent successfully!' });
+    } catch (error) {
+        res.json({ type: 'error', message: 'There was an issue sending the email.' });
     }
+});
 
-    $headers = array('Content-Type: text/plain; charset="UTF-8";',
-        'From: ' . $from,
-        'Reply-To: ' . $from,
-        'Return-Path: ' . $from,
-    );
-    
-    mail($sendTo, $subject, $emailText, implode("\n", $headers));
-
-    $responseArray = array('type' => 'success', 'message' => $okMessage);
-}
-catch (\Exception $e)
-{
-    $responseArray = array('type' => 'danger', 'message' => $errorMessage);
-}
-
-if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-    $encoded = json_encode($responseArray);
-
-    header('Content-Type: application/json');
-
-    echo $encoded;
-}
-else {
-    echo $responseArray['message'];
-}
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}/`);
+});

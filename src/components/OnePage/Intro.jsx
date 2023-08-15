@@ -44,11 +44,11 @@ function Intro() {
               <div className="accordion bord mt-40">
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
                   <div className="title" onClick={openAccordion}>
-                    <h6 className="fz-18">How we can <u>garuantee</u> you leads.</h6>
+                    <h6 className="fz-18">How we can <u>guarantee</u> you leads.</h6>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
-                    <p className="fz-14">Our years of experience with digital advertising can <b>garuantee</b> you results. We've developed a skillset wich is unbeatable, and if we dissapoint you? You will get a 100% refund.</p>
+                    <p className="fz-14">Our years of experience with digital advertising can <b>guarantee</b> you results. We've developed a skillset wich is unbeatable, and if we dissapoint you? You will get a 100% refund.</p>
                   </div>
                 </div>
                 <div className="item mb-15 wow fadeInUp" data-wow-delay=".3s">
