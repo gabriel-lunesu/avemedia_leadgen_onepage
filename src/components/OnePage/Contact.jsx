@@ -45,7 +45,7 @@ function Contact() {
                   </div>
                   <div className="col-12">
                     <div className="form-group mb-30">
-                      <input id="form_subject" type="text" name="subject" placeholder="Subject" />
+                      <input id="form_phone" type="phonenumber" name="Phone Number" placeholder="Phone Number" />
                     </div>
                   </div>
                   <div className="col-12">

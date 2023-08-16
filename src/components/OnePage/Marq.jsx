@@ -19,7 +19,7 @@ function Marq() {
                     <h4>Digital <span className="stroke opacity-4">Marketing</span></h4>
                   </div>
                   <div className="item">
-                    <h4>Product <span className="stroke opacity-4">Design</span></h4>
+                    <h4>Lead <span className="stroke opacity-4">Generation</span></h4>
                   </div>
                   <div className="item">
                     <h4>Mobile <span className="stroke opacity-4">Solutions</span></h4>
@@ -36,7 +36,7 @@ function Marq() {
                     <h4>Digital <span className="stroke opacity-4">Marketing</span></h4>
                   </div>
                   <div className="item">
-                    <h4>Product <span className="stroke opacity-4">Design</span></h4>
+                    <h4>Lead <span className="stroke opacity-4">Generation</span></h4>
                   </div>
                   <div className="item">
                     <h4>Mobile <span className="stroke opacity-4">Solutions</span></h4>
