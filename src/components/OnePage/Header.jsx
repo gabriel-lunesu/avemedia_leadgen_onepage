@@ -15,8 +15,11 @@ function Header() {
         <div className="row">
           <div className="col-lg-8">
             <div className="caption">
-              <h5 className="fw-300 mb-15">Digital Agency - Ave Media</h5>
-              <h1 className="fz-50">#1 Lead Generation <br/> Agency in The <u>Middle-East</u>.</h1>
+              <h5 className="fw-100 mb-10">Experts In Paid Media.</h5>
+              <h1 className="fz-60"><b>Ave Media</b></h1>
+              <h1 className="fz-45"><b>#1</b> In Lead Generation.</h1>
+              
+              <h6 className="fz-20">Based in <u>Amsterdam</u>. For Companies in <u>Dubai</u>.</h6>
             </div>
           </div>
           <div className="col-lg-4 d-flex align-items-end justify-content-end justify-end">
