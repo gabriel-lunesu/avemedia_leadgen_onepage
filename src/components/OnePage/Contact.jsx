@@ -17,7 +17,7 @@ function Contact() {
               <h2 className="fz-50 d-rotate wow">
                 <span className="rotate-text">Let's build or scale your brand!</span>
               </h2>
-              <p className="fz-15 mt-10">If you would like to work with us or just want to get in touch, we’d love to hear from you!</p>
+              <p className="fz-15 mt-10">To learn more about how we can provide you're business more leads, contact us now!</p>
               <div className="phone fz-30 fw-600 mt-30 underline main-color">
                 <a href="#0">+971 58 526 3213</a>
               </div>
