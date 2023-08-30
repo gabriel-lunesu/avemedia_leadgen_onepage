@@ -27,10 +27,10 @@ function About() {
                   <div className="col-md-6">
                     <div className="d-flex align-items-center sm-mb30">
                       <div className="mr-30">
-                        <h2 className="stroke fw-800">500+</h2>
+                        <h2 className="stroke fw-800">22+</h2>
                       </div>
                       <div>
-                        <h6 className="sub-title ls1 opacity-8">High Quality <br /> Leads Generated</h6>
+                        <h6 className="sub-title ls1 opacity-8">Months <br/> To craft our strategy</h6>
                       </div>
                     </div>
                   </div>
