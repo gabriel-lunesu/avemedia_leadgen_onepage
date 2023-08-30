@@ -6,13 +6,13 @@ export default function Document() {
       <Head>
 
          {/* Global site tag (gtag.js) - Google Analytics */}
-         <script async src="https://www.googletagmanager.com/gtag/js?id=G-E13KYQVKH0"></script>
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMVZJGCCE5"></script>
           <script dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-E13KYQVKH0');
+              gtag('config', 'G-ZMVZJGCCE5');
             `
           }}>
           </script>
