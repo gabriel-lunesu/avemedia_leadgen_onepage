@@ -6,6 +6,8 @@ import Head from "next/head";
 import '@/styles/modal-video.css';
 import "swiper/css/bundle";
 import '@/styles/globals.css';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
@@ -15,7 +17,10 @@ function App({ Component, pageProps }) {
       <Head>
         <title>Ave Media</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <Analytics/>
       </Head>
+
+    
 
       <Component {...pageProps} />
 
