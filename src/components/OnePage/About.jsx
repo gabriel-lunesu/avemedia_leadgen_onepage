@@ -20,7 +20,7 @@ function About() {
                 </span>
               </h2>
               <div className="text mt-20 wow fadeIn" data-wow-delay=".5s">
-                <p>At Ave Media, we're so confident in our lead generation skills that we can <b>guarantee</b> our clients a number of leads they get. Otherwise... <i>We'll pay you back 100%</i>.</p>
+                <p>Based in <b>Amsterdam</b> and extending our expertise to <b>Dubai and the UAE</b>, Ave Media is your one-stop digital agency. Specializing in <b>lead generation</b> through precision-targeted paid ads, we're not just confident in our skills—we guarantee results! Beyond generating leads, our comprehensive suite of services encompasses web design, branding, and more. Whether you're looking to craft an impeccable online presence or drive unparalleled business growth, <b>Ave Media is committed to turning your vision into reality.</b></p>
               </div>
               <div className="stutas pt-40 mt-40 bord-thin-top">
                 <div className="row">
