@@ -7164,6 +7164,11 @@ body.inter-center {
   font-size: 13px;
 }
 
+/* Color services cards! */
+.services .serv-items-crev .item  {
+  background: rgba(33, 84, 179, 0.492);
+}
+
 .services .serv-items-crev .item:hover {
   background: rgba(255, 255, 255, 0.02);
 }
