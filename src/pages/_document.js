@@ -4,9 +4,22 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+
+         {/* Global site tag (gtag.js) - Google Analytics */}
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-E13KYQVKH0"></script>
+          <script dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-E13KYQVKH0');
+            `
+          }}>
+          </script>
+
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="keywords" content="React Nextjs Template Geekfolio Multi-Purpose themeforest" />
-        <meta name="description" content="Geekfolio - Multi-Purpose React.js Next.js Template" />
+        <meta name="keywords" content="Lead Generation Leadgeneration advertising advertisement google ads facebook ads ave media avemedia leads b2b b2c leadgeneration agency web development branding more sales more clients get more leads clients" />
+        <meta name="description" content="Ave Media - The Best Lead Generation Agency In The UAE. We generate high quality leads for companies based in the UAE." />
         <meta name="author" content="" />
         {/* ------ Favicon ------ */}
         <link rel="shortcut icon" href="/dark/assets/imgs/favicon.ico" />

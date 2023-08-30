@@ -42,6 +42,8 @@ function HomeOnePage() {
         
       </Head>
 
+      
+
       <Loader />
       <LinesTwo />
       {/* <Navbar curve noStatic /> */}
