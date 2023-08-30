@@ -17,12 +17,13 @@ function App({ Component, pageProps }) {
       <Head>
         <title>Ave Media</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <Analytics/>
+       
       </Head>
 
     
 
       <Component {...pageProps} />
+      <Analytics/>
 
       <Script strategy="beforeInteractive" src="/assets/js/plugins.js"></Script>
       <Script strategy="beforeInteractive" src="/assets/js/TweenMax.min.js"></Script>
