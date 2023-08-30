@@ -5,21 +5,33 @@ export default function Document() {
     <Html lang="en">
       <Head>
 
+      
+
+
          {/* Global site tag (gtag.js) - Google Analytics */}
-         <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMVZJGCCE5"></script>
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV07Y1QVPL"></script>
           <script dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-ZMVZJGCCE5');
+              gtag('config', 'G-DV07Y1QVPL');
             `
           }}>
           </script>
 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+
+         {/* Open Graph */}
+         <meta property="og:title" content="Ave Media - Leading Lead Generation Agency in UAE" />
+        <meta property="og:description" content="Ave Media - The Best Lead Generation Agency In The UAE. We generate high quality leads for companies based in the UAE." />
+        <meta property="og:image" content="/favicon.ico" /> 
+        <meta property="og:url" content="https://www.avemedia.business/" /> 
+
+          {/* Canonical Link */}
+          <link rel="canonical" href="https://www.avemedia.business/" /> {/* Replace with your website URL */}
+        
         <meta name="keywords" content="Lead Generation Leadgeneration advertising advertisement google ads facebook ads ave media avemedia leads b2b b2c leadgeneration agency web development branding more sales more clients get more leads clients" />
-        <meta name="description" content="Ave Media - The Best Lead Generation Agency In The UAE. We generate high quality leads for companies based in the UAE." />
         <meta name="author" content="" />
         {/* ------ Favicon ------ */}
         <link rel="shortcut icon" href="/dark/assets/imgs/favicon.ico" />
