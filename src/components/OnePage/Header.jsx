@@ -50,7 +50,7 @@ function Header() {
                 </Link>
               </div>
               <div>
-                <h6 className="sub-title">Scroll Down <br /> To Contact Us!</h6>
+                <h6 className="sub-title">Scroll Down <br /> <u>Get In Touch!</u></h6>
               </div>
             </div>
           </div>
