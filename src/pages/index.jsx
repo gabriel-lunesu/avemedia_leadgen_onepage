@@ -20,6 +20,7 @@ import Blog from '@/components/OnePage/Blog';
 import Contact from '@/components/OnePage/Contact';
 import Footer from '@/components/OnePage/Footer';
 import ContactForm from '@/components/OnePage/Contactform';
+import Typeform from '@/components/OnePage/Typeform';
 
 
 
@@ -52,6 +53,7 @@ function HomeOnePage() {
         <About />
         <Marq />
         <Services />
+        <Typeform />
         {/* <Portfolio /> */}
         <Intro />
         {/* <Testimonials />
