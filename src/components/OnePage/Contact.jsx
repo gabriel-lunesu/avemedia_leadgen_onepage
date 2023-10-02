@@ -18,9 +18,13 @@ function Contact() {
                 <span className="rotate-text">Let's build or scale your brand!</span>
               </h2>
               <p className="fz-15 mt-10">To learn more about how we can provide you're business more leads, contact us now!</p>
-              <div className="phone fz-30 fw-600 mt-30 underline main-color">
-                <a href="#0">+971 58 526 3213</a>
+              <div className="email fz-30 fw-600 mt-30 underline main-color">
+                <a href="mailto:info@avemedia.agency">info@avemedia.agency</a>
               </div>
+              <div className="phone fz-30 fw-600 mt-30 underline main-color">
+                <a href="https://wa.link/i1dnjt">+971 58 526 3213</a>
+              </div>
+
               <ul className="rest social-text d-flex mt-60">
                 <li>
                   <a href="https://www.instagram.com/internationalave/" className="hover-this"><span className="hover-anim">Instagram</span></a>

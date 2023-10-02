@@ -53,7 +53,7 @@ function HomeOnePage() {
         <About />
         <Marq />
         <Services />
-        <Typeform />
+        {/* <Typeform /> */}
         {/* <Portfolio /> */}
         <Intro />
         {/* <Testimonials />
